@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+main, #contour, #eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contour {
+    background-color: midnightblue;
+}
+
+#eye {
+    background-color: blue;
+    width: 50px;
+    height: 20px;
+}
+
+#black {
+    background-color: black;
+    width: 5px;
+    height: 15px;
+}
+
